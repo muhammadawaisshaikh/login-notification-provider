@@ -21,6 +21,15 @@
     @media only screen and (max-width: 600px) {
         padding: 10px 0 0 0;
     }
+    .buttonicon {
+        position: relative;
+        .icon {
+            position: absolute;
+            top: 6px;
+            left: 10%;
+            font-size: 20px;
+        }
+    }
 }
 
 .input {
